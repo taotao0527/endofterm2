@@ -1,0 +1,57 @@
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.row-left, .row-right{
+    width: 50%;
+    
+}
+
+.Row{
+    background-color: #91506C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Row-left{
+    flex-basis: 30%;
+    
+}
+.Row-right{
+    flex-basis: 70%;
+}
+
+
+article
+{
+    
+    text-align: left;
+}
+
+
+.goods_h{
+    width: 400px;
+    
+    padding: 10px;
+}
+.goods_s{
+    
+    height: 400px;
+    padding: 10px;
+}

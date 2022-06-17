@@ -1,0 +1,36 @@
+.Row{
+    background-color: #91506C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Row-left{
+    flex-basis: 30%;
+    padding: 15px;
+    align-items: left;
+}
+.Row-right{
+    flex-basis: 70%;
+    width: 400px;
+    height: 300px;
+}
+
+.buy{
+    align-items: center;
+    background-color: #91506C;
+    color: aliceblue;
+    border: 0px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius:10px;
+}
+.buy:hover{
+    color:#91506C;
+    background-color:#fff;
+    border: #91506C solid;
+  }

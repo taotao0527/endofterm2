@@ -1,0 +1,41 @@
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 10px auto;
+  background-color: #AAC6DA;
+}
+  
+  .row-left{
+    flex-basis: 30%;
+    
+  }
+  .row-right{
+    flex-basis: 70%;
+    padding: 20px;
+      width: 400px;
+      height: 300px;
+      
+  }
+
+  .goods_h{
+    width: 200px;
+    
+    padding: 10px;
+}
+.goods_s{
+    
+    height: 200px;
+    padding: 10px;
+}
+  
+  

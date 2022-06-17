@@ -1,0 +1,32 @@
+.title{
+    background-color: #9684A1;
+    color: white ;
+    margin: 20px;
+   padding: 5px;
+   text-align: center;
+   font-size:25px;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px,20 px;
+    margin-right: 20 px;
+    margin-left: 20 px;
+    border-radius: 8px;
+}
+
+
+
+.goods_h{
+  width: 200px;
+  
+  padding: 10px;
+}
+.goods_s{
+  
+  height: 200px;
+  padding: 10px;
+}

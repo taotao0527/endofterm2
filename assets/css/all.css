@@ -1,0 +1,165 @@
+header{
+    background-color: #E2EFDE;
+   text-align: center;
+   margin: 0px;
+   padding: 20px;
+   font-size:54px;
+   
+   }
+
+body{
+    background-color: #E2EFDE;
+    color: #AAACB0;
+    font-size: 20px;
+    border: 100%;
+}
+
+footer{
+    background-color: #B096A7;
+    color: #91506C;
+   font-size: 16px;
+   text-align: center;
+   padding: 10px;
+
+
+   }
+
+nav
+{
+    width: 1343px;
+    height: 40px;
+   background-color: #B096A7;
+   text-align: center;
+   font-size: 24px;
+   display: flex;
+   justify-content: center;    
+    align-content: center;      
+    align-items: center;
+}
+
+a:hover{
+    background-color: #edafb8;
+    color: white;
+}
+
+a{
+    padding:14px 16px;
+    display: inline-block;
+    text-decoration:none;
+    color: #F0EFF4;
+    background-color: #9E829C;
+}
+
+nav li {
+   
+    justify-content: center;    
+    align-content: center;      
+    align-items: center;
+    padding: 5px;
+    
+}
+
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    
+    
+}
+    
+nav ul li {
+    display: inline-block;
+    float: none;
+    white-space: nowrap;
+}
+    
+nav ul li a {
+    display: flex;
+    justify-content: center;    
+    align-content: center;      
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 30px;
+    float: none;
+    text-decoration:none;
+    color: #F0EFF4;
+    background-color: #9E829C;
+    
+}
+    
+nav ul li ul a {/*第一層子選單樣式*/
+    background-color: #AFAAC5;
+}
+    
+nav ul li ul li ul a {
+    background-color: #DBE9EE;
+    color: #A188A6;
+}
+    
+
+    
+    nav ul ul {
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 20ms;
+    transition-timing-function: ease-in;
+    transition-delay: 200ms;
+    transform: scale(1,0);
+    transform-origin: top center;
+    }
+    
+    
+    
+    nav ul li:hover>ul {/*選單滑鼠移上去的樣式變化*/
+    /*display: inherit;*/
+    transition: all 300ms ease;
+    transform: scale(1,1);
+    }
+    
+    nav ul ul li {/*第一層子選單的樣式*/
+    min-width: 170px;
+    display: list-item;
+    position: relative;
+    }
+    
+    nav ul ul ul {/*第二層子選單的區塊樣式*/
+    position: absolute;
+    top: 0;
+    left: 100%;
+    }
+
+.card
+  {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.buttom{
+    background-color: #9E829C;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+  justify-content: center;    
+  align-items: center;        
+}
+
+
+
+.name{
+    background-color:rgba(0,0,0,0);
+    color:#AAACB0 ;
+}
+
+.shoppingCar{
+    height:40px;
+}
+
